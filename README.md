@@ -28,3 +28,10 @@
 - **未预处理**原始迭代方法：雅克比迭代、高斯-赛德尔迭代、(超)松弛迭代(文件名：jacobian_iteration.m、seidel_iteration.m、relaxation_iteration.m)；
 - **预处理**后**万能**迭代方法：预处理后万能高斯-赛德尔迭代、预处理后万能(超)松弛迭代(文件名：pre_seidel.m、pre_relaxation.m)。
 - [相关说明参考这里](https://www.jianshu.com/p/e14d9e910984)
+
+# 时间：2019.04.15
+
+更新4：超定不相容线性方程组最小二乘近似解
+
+- 最小二乘法近似求解(文件名：overdetermined_linear.m)；
+- [相关说明参考这里](https://www.jianshu.com/p/3d8abb3ba7d3)
