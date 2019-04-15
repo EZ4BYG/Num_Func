@@ -20,3 +20,11 @@
 - 拉格朗日型积分(高级款)：复化梯形加密公式、龙贝格公式(文件名：jm_f_trapezoid.m、romberg_js.m)；
 - 高斯型积分公式：高斯-勒让德、高斯-拉盖尔、高斯-埃尔米特；包括插值节点和系数的求取，以及实例(文件名：gauss_legendre2.m、gauss_laguerre.m、gauss_hermite.m)。
 - [相关说明参考这里](https://www.jianshu.com/p/c6fdfe11e6bc)
+
+# 时间：2019.04.15
+
+更新3：线性方程组迭代求解相关程序。
+
+- 未预处理原始迭代方法：雅克比迭代、高斯-赛德尔迭代、(超)松弛迭代(文件名：jacobian_iteration.m、seidel_iteration.m、relaxation_iteration.m)；
+- 预处理后万能迭代方法：预处理后万能高斯-赛德尔迭代、预处理后万能(超)松弛迭代(文件名：pre_seidel.m、pre_relaxation.m)。
+- [相关说明参考这里](https://www.jianshu.com/p/e14d9e910984)
