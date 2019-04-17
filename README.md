@@ -27,6 +27,7 @@
 
 - **未预处理**原始迭代方法：雅克比迭代、高斯-赛德尔迭代、(超)松弛迭代(文件名：jacobian_iteration.m、seidel_iteration.m、relaxation_iteration.m)；
 - **预处理**后**万能**迭代方法：预处理后万能高斯-赛德尔迭代、预处理后万能(超)松弛迭代(文件名：pre_seidel.m、pre_relaxation.m)。
+- **对角最大化预处理**：非万能，但还是可以提高迭代收敛的几率，值得参考(文件名: diagonal_maximization.m)
 - 预处理参考文献：《Jacobi和Gauss-Seidel迭代法的预处理》
 - [相关说明参考这里](https://www.jianshu.com/p/e14d9e910984)
 
