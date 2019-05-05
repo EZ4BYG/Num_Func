@@ -47,3 +47,12 @@
 - 线性方程组无穷解：广义加号逆求**通解**和**唯一极小范数解**(文件名：wuqiongjie.m)；
 - 线性方程组唯一解：广义加号逆求唯一解(文件名：weiyijie.m)；
 - [相关说明参考这里](https://www.jianshu.com/p/8777e5d11a03)
+
+# 时间：2019.05.05
+
+更新6：非线性方法组的求解方法，详见文件夹Nonlinear_Equations
+- 原始牛顿法(文件名：niudun.m)，辅助求解线性方法组的万能高斯-赛德尔迭代函数(pre_seidel.m)；
+- 修正牛顿法(文件名：xzniudun.m)；
+- 拟牛顿法_逆Broyden秩1法(nbroyden1.m)；
+- 拟牛顿法_逆Broyden秩1第二方法(nbroyden2.m)；
+- 拟牛顿法_BFS秩2法(BFS.m)；
