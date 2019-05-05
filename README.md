@@ -56,3 +56,4 @@
 - 拟牛顿法_逆Broyden秩1法(nbroyden1.m)；
 - 拟牛顿法_逆Broyden秩1第二方法(nbroyden2.m)；
 - 拟牛顿法_BFS秩2法(BFS.m)；
+- [相关说明参考这里](https://www.jianshu.com/p/4e2d6a45aa67)
