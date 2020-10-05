@@ -1,5 +1,30 @@
-# Numerical_Analysis
-数值分析相关程序：插值、拟合、数值积分、线性方程组迭代求解、非线性方程(组)求解、常微分方程数值解
+# NumFunc
+
+Contents: Numerical analysis toolbox and iterative solution toolbox for linear/nonlinear equations
+
+# Time: 2019.04.06
+- Lagrange interpolation: 2-points, 3-points, n-points; Runge's phenomenon —— **lagra_2points.m**, **largra_3points.m**, **lagra_npoints.m** and **Runge.m**
+- Newton interpolation: 2-points, 3-points, n-points —— **New_2points.m**, **New_3points.m** and **New_npoints.m**
+- Piecewise-linear Lagrangian interpolation —— **fenduan_linear.m**
+- Unary nonlinear fitting —— **nonlinear_fitting.m**
+- More detailed interpretation about Interpolation: https://www.jianshu.com/p/add2e938271c
+- More detailed interpretation about Fitting: https://www.jianshu.com/p/41caace02f39
+
+# Time：2019.04.07
+- Lagrangian integral(basic): Trapezoidal formula, Simpson formula, Newton-Coates formula —— **trapezoid.m**, **simpson.m** and **newton_cotes.m**
+- Lagrangian integral(intermediate): Composite trapezoid formula, Composite Simpson formula —— **f_trapezoid.m** and **f_simpson.m**
+- Lagrangian integral(advanced): 
+- 拉格朗日型积分(基础款)：梯形公式、辛普森公式、牛顿-科茨公式(文件名：trapezoid.m、simpson.m、newton_cotes.m)；
+- 拉格朗日型积分(进阶款)：复化梯形公式、复化辛普森公式(文件名：f_trapezoid.m、f_simpson.m)；
+- 拉格朗日型积分(高级款)：复化梯形加密公式、龙贝格公式(文件名：jm_f_trapezoid.m、romberg_js.m)；
+- 高斯型积分公式：高斯-勒让德、高斯-拉盖尔、高斯-埃尔米特；包括插值节点和系数的求取，以及实例(文件名：gauss_legendre2.m、gauss_laguerre.m、gauss_hermite.m)。
+- [相关说明参考这里](https://www.jianshu.com/p/c6fdfe11e6bc)
+
+---
+
+# 数值分析和方程求解
+
+内容：数值分析相关程序包括插值、拟合、数值积分；方程求解包括线性方程组迭代求解、非线性方程(组)求解、常微分方程数值解
 
 # 时间：2019.04.06
 
