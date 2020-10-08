@@ -1,8 +1,21 @@
 # Nonlinear Equations Solutions
 
+Contents: Various common and useful iterative methods for solving nonlinear equations
 
+# Time：2019.05.05
+The solution methods of the nonlinear equations. The programs are in the **Nonlinear_Equations** folder.
+- Original Newton method + pre-Gauss-Seidel iteration —— **niudun.m**  and **pre_seidel.m**
+- Modified Newton method —— **xzniudun.m**
+- Quasi-Newton Method(single rank inverse Broyden Ⅰ) —— **nbroyden1.m**
+- Quasi-Newton Method(single rank inverse Broyden Ⅱ)  —— **nbroyden2.m**
+- Quasi-Newton Method(rank-two BFS) —— **BFS.m**
+- You can see more detailed interpretation from my blog: https://www.jianshu.com/p/4e2d6a45aa67
+
+---
 
 # 非线性方程组的求解
+
+内容：各种常见且好用的非线性方程组迭代求解方法。
 
 # 时间：2019.05.05
 
